@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- inline Event -->
+    <input type="text" placeholder="sample">
+    <button id="btn" onclick="javascript:alert('you clicked')">Click me</button>
+
+    <!-- this can be also written like this -->
+
+    <input id="inp"  type="text" placeholder="sample2">
+    <button id="btn" onclick=clicked(inp)>Click me</button>
+
+    <button onclick="buttonClick()" >click</button>
+    <span id="counter">0</span>
+
+
+    <script>
+        // function clicked(a){
+        //     alert('Button clicked'+a.value)
+        // }
+        var count=0;
+        function buttonClick(click){
+            
+            count++ 
+
+            document.getElementById("counter").innerHTML.count
+         //console.log(click);
+
+        }
+    </script>
+
+
+
+    
+
+
+</body>
+</html>

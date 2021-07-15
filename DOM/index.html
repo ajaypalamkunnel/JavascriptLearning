@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>DOM</title>
+</head>
+<body>
+    <h1>hi</h1>
+    <span id="count"></span>
+    <h1 id="no"></h1>
+    <script>
+        var i=10;
+        var message="he countdown reached half"
+       function clear(message){
+           console.log("hi");
+       }
+        var x=setInterval(function(){
+            document.getElementById("count").innerHTML=i;
+        i--;
+        if(i==5)
+        
+        document.getElementById("no").innerHTML=message;
+        if(i==5)
+        clear(message)
+        if(i==0)
+        clearInterval(x)
+
+        },1000)
+
+    </script>
+</body>
+</html>
